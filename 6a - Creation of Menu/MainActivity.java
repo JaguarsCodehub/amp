@@ -49,4 +49,30 @@ public class MainActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
+    /* public boolean onOptionsItemSelected(MenuItem item) {
+        int itemId = item.getItemId();
+        if (itemId == R.id.newb) {
+            Toast.makeText(this, "File Selected", Toast.LENGTH_SHORT).show();
+            return true;
+        } else if (itemId == R.id.Share) {
+            Toast.makeText(this, "Open Selected", Toast.LENGTH_SHORT).show();
+            return true;
+        } else if (itemId == R.id.delete) {
+            Toast.makeText(this, "Save Selected", Toast.LENGTH_SHORT).show();
+            return true;
+        } else if (itemId == R.id.save) {
+            Toast.makeText(this, "Save As Selected", Toast.LENGTH_SHORT).show();
+            return true;
+        } else if (itemId == R.id.search) {
+            Toast.makeText(this, "Delete Selected", Toast.LENGTH_SHORT).show();
+            return true;
+        } else if (itemId == R.id.Exit) {
+            Toast.makeText(this, "Exit Selected", Toast.LENGTH_SHORT).show();
+            return true;
+        } else {
+            Toast.makeText(this, "Default", Toast.LENGTH_SHORT).show();
+            return super.onOptionsItemSelected(item);
+        }
+    } */
+    
 }
